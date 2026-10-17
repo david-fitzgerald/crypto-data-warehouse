@@ -26,13 +26,13 @@ You're installing crypto-data-warehouse for a user. Do the steps in order. Each 
 ## 2. Provision (server only)
 
 ```bash
-git clone https://github.com/david-fitzgerald/crypto-data-warehouse.git /opt/crypto-data-warehouse
+git clone https://github.com/holarchic/crypto-data-warehouse.git /opt/crypto-data-warehouse
 /opt/crypto-data-warehouse/deploy/setup.sh
 ```
 
 It installs Docker, sets log rotation and enables UFW with SSH only. Check: `ufw status` lists only port 22. Tell the user to keep port 8000 closed in their provider's firewall too.
 
-Laptop: `git clone https://github.com/david-fitzgerald/crypto-data-warehouse.git && cd crypto-data-warehouse`.
+Laptop: `git clone https://github.com/holarchic/crypto-data-warehouse.git && cd crypto-data-warehouse`.
 
 ## 3. Configure
 

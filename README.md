@@ -1,8 +1,8 @@
 # crypto-data-warehouse
 
-[![CI](https://github.com/david-fitzgerald/crypto-data-warehouse/actions/workflows/ci.yml/badge.svg)](https://github.com/david-fitzgerald/crypto-data-warehouse/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/david-fitzgerald/crypto-data-warehouse)](https://github.com/david-fitzgerald/crypto-data-warehouse/releases)
-[![License: MIT](https://img.shields.io/github/license/david-fitzgerald/crypto-data-warehouse)](LICENSE)
+[![CI](https://github.com/holarchic/crypto-data-warehouse/actions/workflows/ci.yml/badge.svg)](https://github.com/holarchic/crypto-data-warehouse/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/holarchic/crypto-data-warehouse)](https://github.com/holarchic/crypto-data-warehouse/releases)
+[![License: MIT](https://img.shields.io/github/license/holarchic/crypto-data-warehouse)](LICENSE)
 
 Self-hosted crypto data warehouse: OHLCV, funding rate, open interest, liquidations. Binance, Bybit, HyperLiquid, OKX.
 
@@ -125,7 +125,7 @@ It hasn't been tested on less. Start from 4 GB of RAM, and put the database on l
 On a laptop:
 
 ```bash
-git clone https://github.com/david-fitzgerald/crypto-data-warehouse
+git clone https://github.com/holarchic/crypto-data-warehouse
 cd crypto-data-warehouse
 cp .env.example .env     # set POSTGRES_PASSWORD
 docker compose up -d
@@ -144,7 +144,7 @@ Paste this into Claude Code, Codex, Cursor or similar:
 
 ```text
 Install crypto-data-warehouse for me by following
-https://raw.githubusercontent.com/david-fitzgerald/crypto-data-warehouse/v0.24.1/docs/agent-install.md
+https://raw.githubusercontent.com/holarchic/crypto-data-warehouse/v0.24.1/docs/agent-install.md
 Ask me before anything that costs money, opens a public port, or deletes data.
 ```
 

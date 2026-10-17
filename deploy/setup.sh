@@ -113,6 +113,6 @@ echo "  UFW status:"
 ufw status numbered
 echo ""
 echo "Next steps:"
-echo "  1. Clone repo:  git clone https://github.com/david-fitzgerald/crypto-data-warehouse.git $PROJECT_DIR"
+echo "  1. Clone repo:  git clone https://github.com/holarchic/crypto-data-warehouse.git $PROJECT_DIR"
 echo "  2. Create .env: cp $PROJECT_DIR/.env.example $PROJECT_DIR/.env && nano $PROJECT_DIR/.env"
 echo "  3. Deploy:      $PROJECT_DIR/deploy/deploy.sh"
